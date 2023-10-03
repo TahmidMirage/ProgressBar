@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows File Transfer</title>
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="file-transfer">
+        <div class="head">
+          <div class="left">
+            <img src="./images/files.png" alt="" />
+            <span class="title">File Transfer in Progress</span>
+          </div>
+
+          <div class="icons">
+            <span class="material-icons"> remove </span>
+            <span class="material-icons"> check_box_outline_blank </span>
+            <span class="material-icons"> close </span>
+          </div>
+        </div>
+
+        <div class="details">
+          <div class="percentage"><span class="value">50%</span> Complete</div>
+          <div class="controls">
+            <span class="material-icons"> pause </span>
+            <span class="material-icons"> close </span>
+          </div>
+        </div>
+
+        <div class="progress"></div>
+        <div class="note">Estimated 20 Seconds Remaining...</div>
+      </div>
+    </div>
+
+    <script src="./functionality.js"></script>
+  </body>
+</html>
